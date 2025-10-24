@@ -6,6 +6,7 @@ import Navbar from '../components/NavBar'
 import { assets } from '../assets/assets'
 import Moment from 'moment';
 import Footer from '../components/Footer';
+import Loading from '../components/Loader';
 
 
 
@@ -129,7 +130,7 @@ const Blog = () => {
       <Footer />
 
     </div>
-  ) : <div>loading...</div>
+  ) : <Loading/>
 }
 
 export default Blog
